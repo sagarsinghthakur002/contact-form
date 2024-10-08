@@ -1,11 +1,13 @@
 import React from 'react'
-import Navbat from './components/Navbat'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 
 const App = () => {
   return (
     <div>
-      <Navbat />
+      <Navbar/>
+      <Home/>
     </div>
   )
 }
